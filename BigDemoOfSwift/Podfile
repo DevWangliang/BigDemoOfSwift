@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git’
-source 'https://github.com/Artsy/Specs.git'
+#source 'https://github.com/Artsy/Specs.git'
 
 use_frameworks!
 
@@ -7,4 +7,13 @@ platform :ios, '10.0'
 
 target 'BigDemoOfSwift' do
 	pod 'SVProgressHUD'
+  pod 'Alamofire', '~> 5.1.0'
+  pod 'SDWebImage', '~> 5.7.2'
+  pod 'SnapKit', '~> 5.0.1'
+  pod 'Dollar', '~> 9.0.0'
+  pod 'SwiftyJSON', '~> 5.0.0'
+#  资源:R.Swift
+#  //社交分享:MonkeyKing
+#  //Zip解压:SSZipArchive
+#  //Rar解压:UnrarKit
 end
