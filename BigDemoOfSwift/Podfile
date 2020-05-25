@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git’
+source 'https://github.com/Artsy/Specs.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BigDemoOfSwift' do
+	pod 'SVProgressHUD'
+end
