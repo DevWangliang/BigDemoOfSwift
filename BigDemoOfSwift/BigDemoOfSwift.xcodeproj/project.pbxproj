@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		EFC8EDBB247B590100E331DD /* BigDemoOfSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDBA247B590100E331DD /* BigDemoOfSwiftTests.swift */; };
 		EFC8EDC6247B590100E331DD /* BigDemoOfSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDC5247B590100E331DD /* BigDemoOfSwiftUITests.swift */; };
 		EFC8EDD5247B5C1200E331DD /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDD4247B5C1200E331DD /* Macros.swift */; };
+		EFC8EDD8247B925900E331DD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDD7247B925900E331DD /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EFC8EDC5247B590100E331DD /* BigDemoOfSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigDemoOfSwiftUITests.swift; sourceTree = "<group>"; };
 		EFC8EDC7247B590100E331DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC8EDD4247B5C1200E331DD /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		EFC8EDD7247B925900E331DD /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,6 @@
 				DC3A00CC70777CB81EA533F9 /* Pods-BigDemoOfSwift.debug.xcconfig */,
 				09EAEA7FACCA93172EACB1EC /* Pods-BigDemoOfSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +105,7 @@
 		EFC8ED97247B58FB00E331DD = {
 			isa = PBXGroup;
 			children = (
+				EFC8EDD6247B924200E331DD /* Model */,
 				EFC8EDD3247B5BA900E331DD /* Tools */,
 				EFC8EDA2247B58FB00E331DD /* BigDemoOfSwift */,
 				EFC8EDB9247B590100E331DD /* BigDemoOfSwiftTests */,
@@ -162,6 +164,14 @@
 				EFC8EDD4247B5C1200E331DD /* Macros.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		EFC8EDD6247B924200E331DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EDD7247B925900E331DD /* Animal.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +353,7 @@
 				EFC8EDA8247B58FB00E331DD /* ViewController.swift in Sources */,
 				EFC8EDA4247B58FB00E331DD /* AppDelegate.swift in Sources */,
 				EFC8EDA6247B58FB00E331DD /* SceneDelegate.swift in Sources */,
+				EFC8EDD8247B925900E331DD /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
